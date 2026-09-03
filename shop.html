@@ -44,14 +44,81 @@
 
                             <!-- Start navigation -->
                             <ul class="nav">
-                                <li><a href="">Home</a></li>
-                                <li><a href="./courses.html">COURSES</a></li>
-                                <li><a href="">EVENTS</a></li>
-                                <li><a href="">Pages</a></li>
-                                <li><a href="">PORTFOLIO</a></li>
-                                <li><a href="">BLOG</a></li>
-                                <li><a href="./shop.html">SHOP</a></li>
-                                <li><a href="">Contact</a></li>
+                                <li>
+                                    <a href="">Home</a>
+                                    <ul class="submenu">
+                                        <li><a href="">Home version one</a></li>
+                                        <li><a href="">Home version Two</a></li>
+                                        <li>
+                                            <a href="">Home video background</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">COURSES</a>
+                                    <ul class="submenu">
+                                        <li><a href="">Course 2 Column</a></li>
+                                        <li>
+                                            <a href="./courses.html"
+                                                >Course 3 Column</a
+                                            >
+                                        </li>
+                                        <li><a href="">Course Details</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">EVENTS</a>
+                                    <ul class="submenu">
+                                        <li><a href="">Event List</a></li>
+                                        <li><a href="">Event Grid</a></li>
+                                        <li><a href="">Event Single</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Pages</a>
+                                    <ul class="submenu">
+                                        <li><a href="">Our teachers</a></li>
+                                        <li><a href="">teachers profile</a></li>
+                                        <li><a href="">About Us</a></li>
+                                        <li><a href="">Error page</a></li>
+                                        <li><a href="">FAQ Page</a></li>
+                                        <li><a href="">Login</a></li>
+                                        <li><a href="">sign up</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">PORTFOLIO</a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="">portfolio 2 column</a>
+                                        </li>
+                                        <li>
+                                            <a href="">portfolio 3 column</a>
+                                        </li>
+                                        <li>
+                                            <a href="">portfolio 4 column</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">BLOG</a>
+                                    <ul class="submenu">
+                                        <li><a href="">Blog</a></li>
+                                        <li><a href="">Blog details</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">SHOP</a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="./shop.html">Shop Page</a>
+                                        </li>
+                                        <li><a href="">Shop Details</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Contact</a>
+                                </li>
                             </ul>
                             <!-- End navigation -->
 
@@ -158,10 +225,22 @@
                         <div class="main-product">
                             <div class="filter-group">
                                 <div class="left">
-                                    <span>Search Filter</span>
                                     <button>
+                                        <span>Search Filter</span>
                                         <i class="fa-solid fa-chevron-down"></i>
                                     </button>
+                                    <ul class="sub-filter">
+                                        <li class="filter-option active">
+                                            Select Filter
+                                        </li>
+                                        <li class="filter-option">
+                                            By Price
+                                        </li>
+                                        <li class="filter-option">
+                                            By Category
+                                        </li>
+                                        <li class="filter-option">By Date</li>
+                                    </ul>
                                 </div>
                                 <p class="right">Showing 1-9 of 25 Result</p>
                             </div>
@@ -457,12 +536,17 @@
                                 Subscribe us to get all the latest news from us
                             </p>
                             <form action="" class="form-group">
-                                <input
-                                    type="text"
-                                    placeholder="Your Email"
-                                    class="email-input"
-                                />
-                                <button class="send-btn">SEND</button>
+                                <div class="email-input">
+                                    <input
+                                        type="text"
+                                        placeholder=""
+                                        class=""
+                                    />
+                                    <label for="">Your email</label>
+                                </div>
+                                <button class="send-btn">
+                                    <span>SEND</span>
+                                </button>
                             </form>
                         </div>
                         <!-- End footer list -->
@@ -470,6 +554,11 @@
                 </div>
             </div>
             <!-- End footer -->
+
+            <!-- Go top icon -->
+             <div class="go-top">
+                <i class="fa-solid fa-angle-up"></i>
+             </div>
         </div>
     </body>
 </html>
