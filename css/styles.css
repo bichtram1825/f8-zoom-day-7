@@ -657,6 +657,7 @@ h1.heading {
     z-index: 2;
 }
 
+
 /* Main Shop page*/
 .shop-page .main {
     margin-top: 110px;
@@ -954,6 +955,7 @@ h1.heading {
     margin-left: 12px;
 }
 
+/* Go top page btn */
 .go-top {
     position: fixed;
     z-index: 100;
@@ -968,4 +970,50 @@ h1.heading {
     background: var(--primary);
     color: var(--white);
     font-size: 2.5rem;
+}
+
+
+/* Outline courses page */
+.all-course-title {
+    font-size: 2rem;
+    margin: 30px 0;
+}
+
+.all-course {
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.menu-course-title {
+    position: sticky;
+    top: 0;
+
+    margin-top: 20px;
+    background: var(--white);
+    line-height: 30px;
+    font-size: 1.8rem;
+}
+
+.menu-course-list {
+    margin-top: 20px;
+    border: 1px solid #0000000d;
+}
+
+.menu-course-list li {
+    line-height: 40px;
+    border-bottom: 1px solid #0000000d;
+}
+ 
+.menu-course-list a {
+    display: flex;
+
+    padding: 0 25px;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.menu-course-list li:hover a {
+    transform: translate(7px,0);
+    color: var(--secondary)
 }
